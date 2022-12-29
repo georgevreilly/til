@@ -1,5 +1,5 @@
 AUTHOR = 'George V. Reilly'
-SITENAME = 'Today I Learned'
+SITENAME = 'Today George Learned'
 # SITEURL = 'https://www.georgevreilly.com/til'
 
 PATH = 'content'
@@ -27,7 +27,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = '/Users/georgevreilly/src/Casper2Pelican'
+THEME = 'themes/Casper2Pelican'
 
 AUTHOR_PIC_URL="https://www.georgevreilly.com/content/binary/bloomsday2017hat.jpg"
 AUTHOR_BIO="Irish-born software developer living in Seattle"
