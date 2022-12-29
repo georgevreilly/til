@@ -3,6 +3,7 @@
 *.~*~
 __pycache__
 .python-version
+.vscode/
 
 .*.sw?
 .DS_Store
