@@ -27,5 +27,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+THEME = '/Users/georgevreilly/src/til-pelican/themes/Casper2Pelican'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
