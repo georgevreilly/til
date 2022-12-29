@@ -1,6 +1,6 @@
 AUTHOR = 'George V. Reilly'
 SITENAME = 'Today I Learned'
-SITEURL = ''
+# SITEURL = 'https://www.georgevreilly.com/til'
 
 PATH = 'content'
 
@@ -27,7 +27,22 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = '/Users/georgevreilly/src/til-pelican/themes/Casper2Pelican'
+THEME = '/Users/georgevreilly/src/Casper2Pelican'
+
+AUTHOR_PIC_URL="https://www.georgevreilly.com/content/binary/bloomsday2017hat.jpg"
+AUTHOR_BIO="Irish-born software developer living in Seattle"
+AUTHOR_LOCATION="Seattle, WA, USA"
+SITE_DESCRIPTION="A mini-blog"
+# SITE_LOGO = If used will show logo in top left corner / ograph tags.
+DEFAULT_HEADER_IMAGE="images/aerlingus-bg.jpg"
+ARCHIVE_HEADER_IMAGE="images/barge.jpg"
+TWITTER_USERNAME="georgevreilly"
+
+EXTRA_PATH_METADATA = {
+    'extras/favicon.ico': {'path': 'favicon.ico'},
+#   'extras/CNAME': {'path': 'CNAME'},
+}
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
