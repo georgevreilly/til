@@ -3,6 +3,7 @@ SITENAME = 'Today George Learned'
 # SITEURL = 'https://www.georgevreilly.com/til'
 
 PATH = 'content'
+STATIC_PATHS = ['extras', 'images']
 
 TIMEZONE = 'America/Los_Angeles'
 
